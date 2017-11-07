@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/brokenheart.png">
+    <title>SemAbuso</title>
+    <meta name="description" content="Website SemAbuso">
+    <meta name="author" content="Mariana Ruther">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <img src="img/broken-heart.png" alt="Logo do site SemAbuso" class="heart">
+</head>
+
+
+<!--CORPO DO INDEX-->
+
+
+<body class="bodyindex" background="img/wonder2.jpg">
+
+    <header class="container">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="abuso.html">Relacionamentos Abusivos</a>
+            <a href="contato.html">Contato</a>
+        </div>
+
+        <span onclick="openNav()" class="btn-span btn-spanindex">Menu</span>
+
+    </header>
+
+
+
+    <div id="main">
+        <section class="texto">
+            <div class="container">
+                <main>
+                    <h1>Relacionamento Abusivo.</h1>
+                </main>
+            </div>
+        </section>
+
+        <div class="flex-teste">
+            <section class="quiz">
+                <h3>Veja se você não está em um ou entenda mais sobre. Vamos brincar com coisa séria?</h3>
+
+                <!--MODAL-->
+
+                <button id="myBtn">Comece Agora!</button>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+
+                        <div id="p1">
+                            <p id="pergunta">Pergunta 1: Seu namorado (a) costuma pedir para você trocar de roupa se estiver muito curta,
+                                justa ou decotada, ou não usar batons de cores fortes?</p>
+                            <button type="button" name="sim" id="botaoQuiz1" onclick="quizManager()" value="sim">SIM</button>
+                            <button type="button" name="nao" id="botaoQuiz2" onclick="quizManager()" value="nao">NÃO</button>
+                            <div>
+                                <img id="gif1" src="img/gifquiz1.gif" width="50%" height="50%" alt="Gif Quiz 1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--FIM DO MODAL-->
+
+
+
+            <section class="jout">
+                <h2 class="animated pulse">Espera! Antes, dá uma olhada nesse vídeo!</h2>
+                <iframe width="80%" height="40%" src="https://www.youtube.com/embed/I-3ocjJTPHg" frameborder="0" gesture="media" allowfullscreen></iframe>
+                <a href="https://www.youtube.com/channel/UCbE7YGLZ-VY0oCgIsCSJ5Sg">
+                    <p>JoutJout Prazer</p>
+                </a>
+                <p><strong>Relacionamento abusivo: Desnaturalize, tome uma atitude.</p>
+                <p id="ultimop">Se você não vive, não julgue. Ajude.</strong></p>
+            </section>
+
+        </div>
+
+
+
+        <script src="js/script.js "></script>
+        <script src="js/quiz.js"></script>
+
+</body>
+
+</html>
+
+<!--FIM DO INDEX-->

@@ -1,0 +1,912 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #e6e6e6;
+    text-shadow: 3px 3px black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000;
+    background-size: cover;
+}
+
+
+
+
+/*CORPO DO INDEX*/
+
+.bodyindex {
+    /*overflow-y: hidden;*/
+}
+
+.texto h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #e6e6e6;
+    margin-top: 0;
+}
+
+.flex-teste {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-teste h3 {
+    margin-top: 30px;
+}
+
+.quiz {
+    text-align: center;
+    font-size: 20px;
+    max-width: 600px;
+}
+
+.jout {
+    text-align: center;
+    font-size: 15px;
+    max-width: 450px;
+    margin-bottom: 50px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.jout h2 {
+    margin-top: 0px;
+    font-size: 24px;
+    color: #b54e29;
+}
+
+.jout p {
+    font-size: 20px;
+}
+
+.jout a {
+    text-decoration: none;
+}
+
+.jout a > p {
+    color: pink;
+}
+
+.jout a > p:hover {
+    color: deeppink;
+}
+
+#ultimop {
+    color: #b54e29;
+    text-decoration: overline;
+    font-size: 19px;
+}
+
+
+
+
+
+/*CORPO RESULTADOS*/
+
+.result {
+    color: #000;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.result h1 {
+    margin-bottom: 30px;
+    margin-top: 70px;
+    font-size: 50px;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.result h3 {
+    margin-top: 0;
+    font-size: 30px;
+    color: #000;
+}
+
+.result p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.boxvideo {
+    width: 600px;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: 130px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.boxvideo h2 {
+    color: orangered;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.boxvideo video {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.textoresult {
+    width: 700px;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 13px;
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.textofinal {
+    text-align: center;
+    margin-top: 380px;
+    margin-right: 300px;
+}
+
+.textofinal h3 {
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 82px;
+    margin-bottom: 0;
+}
+
+.textofinal p {
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.textofinal-nao {
+    margin-top: 280px;
+}
+
+.box {
+    display: flex;
+}
+
+.video-violencia {
+    width: 100%;
+    height: 100%;
+    max-width: 320px;
+    max-height: 240px;
+}
+
+
+
+/*RESULTADO NÃO*/
+.boxvideo2 {
+    max-width: 300px;
+}
+
+.boxvideo2 h2 {
+    color: orangered;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.boxvideo2 video {
+    margin-top: 10px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.textoresult2 {
+    padding: 0 20px;
+    margin-top: 40px;
+    font-size: 13px;
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.textofinal2 {
+    text-align: center;
+}
+
+.textofinal2 h3 {
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.textofinal2 p {
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/*ABUSO*/
+
+.textoabuso h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-shadow: none;
+    color: #000;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#flex-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-wrap: wrap;
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0px;   
+}
+
+#flex-container h3 {
+    color: orangered;;
+    text-shadow: none;
+    font-weight: bold;
+    margin-top: 0px;   
+}
+
+#flex-container p {
+    font-size: 17px;
+}
+
+.flex-item {
+    height: 100%;
+    margin: 10px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.flex-item2 {
+    height: 100%;
+    margin: 10px;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+#flex-item3 {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+}
+
+#flex-item3 h2 {
+    text-align: left;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.flex-flex iframe {
+    max-width: 100%;
+}
+
+.flex-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-flex > div {
+    padding: 0 30px;
+}
+
+
+/*CORPO ABUSO*/
+.abuso {
+   
+    height: 100px;
+    margin: 10px;
+    font-size: 15px;
+    color: #000;
+    text-shadow: none;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.abuso h2 {
+    font-size: 40px;
+}
+
+.abuso h3 {
+    font-size: 22px;
+    color: orangered;
+}
+
+.abuso > div {
+    max-width: 60%;
+    position: relative;
+}
+
+
+
+
+/*MENU*/
+
+body {
+    font-family: 'Roboto Slab', serif;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 21px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: orangered;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.btn-span {
+    font-size: 30px;
+    padding-left: 20px;
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-spanindex {
+    font-size: 25px;
+    padding-left: 20px;
+    color: white;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.btn-result {
+    font-size: 30px;
+    padding-left: 20px;
+    color: black;
+    text-shadow: none;
+    font-weight: bold; 
+}
+
+.heart {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+/*BOTÃO*/
+
+.quiz button {
+    font-family: 'Roboto Slab', serif;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #b54e29;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px #999;
+    color: #e6e6e6;
+}
+
+.quiz button:hover {
+    background-color:orangered;
+}
+
+.quiz button:active {
+  background-color: orangered;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+/*BOTÃO TIPOS DE ABUSO*/
+
+#botaotiposabuso {
+    display: inline;
+    padding: 15px 25px;
+    font-size: 25px;
+    outline: none;
+    color: #fff;
+    background-color: orangered;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px #999;
+    color: #e6e6e6;
+}
+
+#botaotiposabuso:hover {
+    background-color: black;
+}
+
+#botaotiposabuso:active {
+  background-color: orangered;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#botaotiposabuso > a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/*MODAL*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #e6e6e6;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: orangered;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#pergunta {
+    color: black;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: none;
+    font-weight: bold; 
+    margin-bottom: 15px;
+}
+
+#botaoQuiz1, #botaoQuiz2 {
+    margin-bottom: 30px;
+}
+
+
+
+/*ENTRE EM CONTATO*/
+
+.resultContato h1 {
+    font-family: 'Roboto Slab', serif;
+    text-shadow: none;
+    font-weight: bold; 
+    font-size: 50px;    
+    color: #000;
+    margin: 0;
+    text-align: center;
+}
+
+.textoContato {
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: none;
+    font-weight: bold; 
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.gifabuso {
+    text-align: center;
+}
+
+footer {
+    color: black;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: none;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.flexContato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.parte1 {
+    max-width: 500px;
+}
+
+.parte2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parte2 form {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iconesContato {
+    margin-top: 50px;
+}
+
+
+/*FORM*/
+
+form {
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-shadow: none;
+    font-weight: bold; 
+}
+
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 100%;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+
+.button {
+    /* Para posicionar os botões para a mesma posição dos campos de texto */
+    display: flex; /* mesmo tamanho que os elementos do tipo label */
+    justify-content: center;
+}
+
+button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left: .5em;
+}
+
+
+
+/*PÁGINA TIPOS DE ABUSO*/
+
+#spoiler {
+    padding: 0 20px;
+    text-shadow: none;
+    color: #000;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#spoiler h2 {
+    color: orangered;
+}
+
+#spoiler1 {
+    text-shadow: none;
+    color: #000;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#spoiler1 h2 {
+    color: orangered;
+}
+
+#spoiler2 {
+    text-shadow: none;
+    color: #000;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#spoiler2 h2 {
+    color: orangered;
+}
+
+#spoiler3 {
+    text-shadow: none;
+    color: #000;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#spoiler3 h2 {
+    color: orangered;
+}
+
+#spoiler4 {
+    text-shadow: none;
+    color: #000;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#spoiler4 h2 {
+    color: orangered;
+}
+
+#botoestipos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#botoestipos button {
+    margin-top: 30px;
+    margin-left: 18px;
+    background: #f7470d;
+    background-image: -webkit-linear-gradient(top, #f7470d, #ad4725);
+    background-image: -moz-linear-gradient(top, #f7470d, #ad4725);
+    background-image: -ms-linear-gradient(top, #f7470d, #ad4725);
+    background-image: -o-linear-gradient(top, #f7470d, #ad4725);
+    background-image: linear-gradient(to bottom, #f7470d, #ad4725);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    }
+
+#botoestipos button:hover {
+    background: #db11ed;
+    background-image: -webkit-linear-gradient(top, #db11ed, #3498db);
+    background-image: -moz-linear-gradient(top, #db11ed, #3498db);
+    background-image: -ms-linear-gradient(top, #db11ed, #3498db);
+    background-image: -o-linear-gradient(top, #db11ed, #3498db);
+    background-image: linear-gradient(to bottom, #db11ed, #3498db);
+    text-decoration: none;
+}
+
+.h1tipos {
+    text-shadow: none;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.bodytipos {
+    overflow-y: scroll;
+    background-size: cover;
+}
+
+#botoestipos {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+@media (min-width: 375px) {
+    .boxvideo2 {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxvideo2 h2 {
+        text-align: center;
+    }
+    .boxvideo2 video {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .texto h1 {
+        font-size: 45px;
+    }
+    .flexContato {
+        align-items: center;
+    }
+    .box2 {
+        justify-content: center;
+    }
+    #botoestipos {
+    flex-direction: row;
+    }
+    #spoiler, #spoiler2, #spoiler3, #spoiler4 {
+        width: 70%;
+    }
+    .h1tipos {
+    max-width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .texto h1 {
+        font-size: 50px;
+    }
+    .quiz {
+        font-size: 30px;
+    }
+    .flex-flex {
+        max-width: 80%;
+    }
+    .textoabuso h1 {
+        font-size: 50px;
+    }
+    .flex-item, .flex-item2 {
+        max-width: 35%;
+    }
+    .resultContato h1 {
+        font-size: 90px;
+    }
+    .flexContato {
+        flex-direction: row;
+    }
+    .textoContato {
+        font-size: 20px;
+    }
+    .parte2 {
+        margin-right: 40px;
+    }
+    input, textarea {
+    min-width: 300px;
+    }
+    form {
+    width: 400px;
+    }
+    .parte1 {
+    margin-right: 100px;
+    padding-left: 30px;
+    }
+    .textoresult2 {
+        max-width: 500px;
+    }
+    .box2 {
+    flex-wrap: nowrap;
+    }
+    #spoiler, #spoiler2, #spoiler3, #spoiler4 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .texto h1 {
+        font-size: 70px;
+    }
+    .quiz {
+        font-size: 37px;
+    }
+    .flex-teste {
+        margin-top: 80px;
+    }
+    .jout {
+        margin-right: 150px;
+        margin-top: 0;
+    }
+    #pergunta {
+        font-size: 30px;
+    }
+    #botaotiposabuso {
+        margin-left: 350px;
+    }
+    .textoabuso h1 {
+        font-size: 100px;
+    }
+    .flex-flex {
+        flex-direction: row;
+    }
+    .result h1 {
+        font-size: 75px;
+    }
+}
